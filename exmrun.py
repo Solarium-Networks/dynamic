@@ -7,4 +7,4 @@ module_name = "exm"
 # get module name from globals
 module = globals().get(module_name)
 # run
-module.example(world)
+module.example("world")
